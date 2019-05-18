@@ -23,7 +23,7 @@ const App = () => {
   // Did mount
   useEffect(() => {
     inputRef.current.focus();
-    axios.get('http://www.mocky.io/v2/5cd93aeb300000b721c014b0').then(response => {
+    axios.get('https://www.mocky.io/v2/5cd93aeb300000b721c014b0').then(response => {
       setData(convertData(response.data.split('\n')));
     }).catch(error => {
       console.log('error');
