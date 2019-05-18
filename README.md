@@ -1,2 +1,2 @@
 ## Live Demo
-[https://typeahead-fcaaf.firebaseapp.com/]
+https://typeahead-fcaaf.firebaseapp.com/
